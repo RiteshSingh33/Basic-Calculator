@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2';
+}
+.aligncenter{
+    text-align: center;
+    background-color: rgb(43, 40, 40);
+    /* width: 100%; */
+    color: #f4e2e2;
+    height: 2.7rem;
+    margin-bottom: 30px;
+}
+
+.bg{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.button{
+    padding: 10px 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 25px;
+    width: 58px;
+    text-align: center;
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    font-size: 21px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(234, 229, 229);
+}
+
+@media screen and (max-width : 549px){
+    .aligncenter{
+        height: 5.5rem;
+    }
+}
